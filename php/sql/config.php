@@ -1,0 +1,23 @@
+<?php
+	session_start();
+	if($_SERVER['SERVER_ADDR'] == "127.0.0.1")
+	{
+		define("IP_ADDR","localhost");
+		define("USER_NAME","root");
+		define("USER_PASS","");
+		define("DB_NAME","slot_game");
+	}
+	else 
+	{
+		/*
+		define("IP_ADDR","localhost");
+		define("USER_NAME","carewin_admin");
+		define("USER_PASS","KWN$85}7[bAf");
+		define("DB_NAME","carewin_slotgame");
+		*/
+		define("IP_ADDR","localhost");
+		define("USER_NAME","twoserv1");
+		define("USER_PASS","sbvpG9Ax");
+		define("DB_NAME","twoserv1_slotgame");
+	}
+?>

@@ -1,0 +1,62 @@
+body
+{
+	top			: 0px;
+	left		: 0px;
+	margin		: 0px;
+	padding		: 0px;
+	font-family	: Arial, Helvetica, sans-serif;
+	background-size:100% 50%;
+	background:#000000;
+}
+
+#game_area01{
+	background:url(../img/form/board_01.png);
+	height: 640px;
+	width : 956px;
+	margin: 50px auto;
+}
+
+#game_area01 #frm_login{
+	background:#FFFFFF;
+	height:46%;
+	width:30%;
+	float: right;
+	margin:98px 45px 0px 0px;
+	padding:0px;
+}
+
+#game_area01 #frm_login #txt_name{
+	width:80%;
+	height:10%;
+	border:#000000 solid thin;
+	text-align:left;
+	margin:30px 0px 0px 30px;
+	border-radius:5px;
+	font-size:16px;
+	padding:5px 0px 0px 0px;
+}
+
+#game_area01 #frm_login #txt_name span{
+	margin:0px 0px 0px 2px;
+	border-radius:5px;
+}
+
+#password{
+	margin:20px 0px 0px 5px;
+}
+
+#username{
+	margin:70px 0px 0px 0px;
+}
+
+label{
+	margin-left:20px;
+}
+
+#login_btn{
+	margin:30px 0px 0px 165px;
+}
+
+#login_btn:hover{
+	cursor:pointer;
+}

@@ -1,0 +1,479 @@
+body
+{
+	top			: 0px;
+	left		: 0px;
+	margin		: 0px;
+	padding		: 0px;
+	font-family	: Arial, Helvetica, sans-serif;
+	background-size:100% 50%;
+	background:#000000;
+}
+ul { list-style-type: none }
+
+#game_area{
+	background:url(../img/common/background.jpg);
+	height: 640px;
+	width : 956px;
+	margin: 50px auto;
+}
+
+#game_area #game_header{
+	width:100%;
+	height:14%;
+	margin:0px;
+}
+
+#game_area #game_header #help_btn,
+#game_area #game_header #home_btn{
+	float:left;
+	width:8%;
+	height:100%;
+}
+
+#game_area #game_header #home_btn #home_img
+{
+	padding:8px 0px 0px 16px;
+	cursor:pointer;
+}
+
+#game_area #game_header #help_btn #help_img{
+	padding:8px 0px 0px 0px;
+	cursor:pointer;
+}
+
+#game_area #game_header #sweep_entries,
+#game_area #game_header #totalwin_board{
+	margin:	8px 10px 0px 10px;
+	padding:5px;
+	float:left;
+	width:18.5%;
+	height:56%;
+	background:#000000;
+	border-radius:5px;
+}
+
+#game_area #game_header #sweep_entries center span,
+#game_area #game_header #totalwin_board center span{
+	color:white;
+	font-size:12px;
+}
+
+#game_area #game_header #sweep_entries h2,
+#game_area #game_header #totalwin_board h2{
+	color : #cdcc34;
+	text-align:center;
+	margin:10px;
+}
+#game_area #game_header #ads_board{
+	margin:	3px 0px 0px 0px;
+	padding:0px;
+	float:left;
+	width:40%;
+	height:95%;
+	background:#FFFFFF;
+}
+
+#game_area #game_body{
+	width:100%;
+	height:69%;
+	margin:0px;
+}
+
+#left_ctrl{
+	width:6.3%;
+	height:100%;
+	margin:0;
+	padding:0;
+	text-align:right;
+	float:left;
+}
+
+#right_ctrl{
+	width:4.3%;
+	height:100%;
+	margin:0 0 0 -12px;
+	padding:0;
+	text-align:left;
+	float:left;
+}
+
+#right_ctrl .li_right{
+	background:url(../img/common/rsel.png) no-repeat;
+	width:40px;
+	height:20px;
+	margin:13px 0px 0px 0px;
+	text-align:center;
+	cursor:pointer;
+}
+
+#left_ctrl .li_left{
+	background:url(../img/common/sel.png) no-repeat;
+	width:40px;
+	height:20px;
+	margin:13px 0px 0px 20px;
+	text-align:center;
+	cursor:pointer;
+}
+
+#game_area #game_body #left_ctrl .li_left center span, 
+#game_area #game_body #right_ctrl .li_right center span{
+	color:white;
+	font-size:17px;
+}
+#game_area #game_body #spin_board{
+	float:left;
+	width:89%;
+	height:100%;
+}
+
+#game_area #game_body #spin_board .pan_board{
+	width:18.5%;
+	height:99%;
+	float:left;
+	background:#000000;
+	margin:1px 13px 1px 0px;
+	padding:0px;
+	overflow:hidden;
+}
+
+#game_area #game_body #spin_board .pan_board ul{
+	width:92%;
+	height:5000px;
+	background:#FFFFFF;
+	margin:0px 6px 0px 6px;
+	padding:0;
+	text-align:center;
+}
+
+#game_area #game_body #spin_board .pan_board ul li{
+	width:99%;
+	height:140px;
+	text-align:center;
+	padding:5px 0px 0px 0px;
+}
+
+#game_area #game_body #spin_board .pan_board ul li img{
+	width:80%;
+}
+
+#spin_info{
+	width:100%;
+	height:100%;
+	position:absolute;
+	margin-left:60px;
+}
+
+#game_area #game_footer{
+	width:100%;
+	height:17%;
+	margin:0px;
+}
+
+#game_area #game_footer #green_bar{
+	width:100%;
+	height:3%;
+	background:#526C79;
+}
+
+#game_area #game_footer #auto_play{
+	float:left;
+	width:13.3%;
+	height:97%;
+}
+
+#game_area #game_footer #auto_play #autospin_btn{
+	background:url(../img/common/autospin_btn.png) no-repeat;
+	margin:9px 0px 0px 12px;
+	padding:0px;
+	width:120px;
+	height:40px;
+	cursor:pointer;
+}
+
+#game_area #game_footer #auto_play #donate_btn{
+	background:url(../img/common/donate_btn.png) no-repeat;
+	margin:12px 0px 0px 12px;
+	padding:0px;
+	width:120px;
+	height:40px;
+	cursor:pointer;
+}
+
+#game_area #game_footer #detail_info{
+	float:left;
+	width:51%;
+	height:97%;
+}
+
+#game_area #game_footer #detail_info #luck_board{
+	width:95%;
+	height:42%;
+	margin:3px 0px 0px 15px;
+	padding:0px;
+	background: #000000;
+	border-radius:5px;
+}
+
+#game_area #game_footer #detail_info #luck_board h2{
+	color : #cdcc34;
+	text-align:center;
+	padding:8px 0px 0px 0px;
+	margin:0px;
+}
+
+#game_area #game_footer #detail_info #win_entries{
+	float:left;
+	width:22.5%;
+	height:48%;
+	margin:3px 0px 0px 15px;
+	padding:0px;
+	background: #000000;
+	border-radius:5px;
+}
+
+#game_area #game_footer #detail_info #linecredits,
+#game_area #game_footer #detail_info #spincredits,
+#game_area #game_footer #detail_info #freespin_board{
+	float:left;
+	width:22.5%;
+	height:48%;
+	margin:3px 0px 0px 8px;
+	padding:0px;
+	background: #000000;
+	border-radius:5px;
+}
+
+#game_area #game_footer #detail_info center span{
+	color:#FFFFFF;
+	text-align:center;
+	padding:8px 0px 0px 0px;
+	font-size:12px;
+}
+
+#game_area #game_footer #detail_info h3{
+	color : #cdcc34;
+	text-align:center;
+	padding:5px 0px 0px 0px;
+	margin:0px;
+}
+
+#game_area #game_footer #entry_play{
+	float:left;
+	width:20%;
+	height:97%;
+}
+
+#game_area #game_footer #entry_play #maxplay_btn{
+	background:url(../img/common/maxplay_btn.png) no-repeat;
+	margin:9px 0px 0px 0px;
+	padding:0px;
+	width:180px;
+	height:40px;
+	cursor:pointer;
+}
+
+#game_area #game_footer #entry_play #entries_btn{
+	background:url(../img/common/entry_btn.png) no-repeat;
+	margin:12px 0px 0px 0px;
+	padding:0px;
+	width:180px;
+	height:40px;
+	cursor:pointer;
+}
+
+#game_area #game_footer #spin_play{
+	background:url(../img/common/spin_btn.png) no-repeat;
+	margin:9px 0px 0px 5px;
+	float:left;
+	width:14.5%;
+	height:97%;
+	cursor:pointer;
+}
+
+#game_body #donate_form{
+	width:755px;
+	height:420px;
+	position:absolute;
+	background:url(../img/form/donate.png) no-repeat;
+	padding:0px;
+	margin: 0px 0px 0px 100px;
+	padding: 0px 0px 0px 20px;
+	visibility:hidden;
+	color:#FFFFFF;
+	font-size:14px;
+	line-height:25px;
+}
+
+#donate_form #donateclose{
+	width:97.5%;
+	height:10%;
+	text-align:right;
+}
+
+#game_body #pay_form{
+	width:815px;
+	height:603px;
+	position:absolute;
+	background:url(../img/form/paytable.png) no-repeat;
+	padding:0px;
+	margin: -100px 0px 0px 75px;
+	visibility:hidden;
+}
+
+#pay_form #payclose{
+	width:100%;
+	height:8%;
+	text-align:right;
+}
+
+#donate_form span{
+	margin:5px 0px 0px 7px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#FCD743;
+}
+
+#donate_form a{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	margin:5px 0px 0px 7px;
+	color:#FFFFFF;
+}
+
+#donate_form h2{
+	margin:20px 0px 0px 0px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-style:normal;
+	font-size:18px;
+	color:#FCD743;
+}
+
+#donate_form #charity{
+	width:95%;
+	height:30%;
+	margin:0px 0px 0px 0px;
+}
+
+#donate_form #charity span{
+	font-family:Geneva, Arial, Helvetica, sans-serif;
+	font-size:36px;
+	color:#1DAD36;
+	line-height:30px;
+}
+
+#donate_form .change_donate{
+	margin:30px 0px 0px 20px;
+	padding:30px 0px 0px 0px;
+	width:13%;
+	height:50%;
+	float:left;
+	background-color:#FFFFFF;
+	border-radius:5px;
+	text-align:center;
+}
+
+#donate_form #out_area{
+	margin:0px 0px 0px 50px;
+	width:22%;
+	height:100%;
+	float:left;
+}
+
+#donate_form #out_area #donate_out{
+	margin:0px 0px 0px 0px;
+	padding:8px 0px 0px 0px;
+	width:100%;
+	height:25%;
+	background-color:#FFFFFF;
+	border-radius:5px;
+}
+
+#donate_form #out_area #credits{
+	margin:0px 0px 0px 0px;
+	padding:8px 0px 0px 0px;
+	width:100%;
+	height:25%;
+	background-color:#FFFFFF;
+	border-radius:5px;
+}
+
+#donate_form #out_area label{
+	margin:5px 0px 0px 7px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-style:italic;
+	color:#FCD743;
+}
+
+#donate_form #button_area{
+	width:50%;
+	height:10%;
+	margin:20px 0px 0px 20px;
+}
+
+#donate_form #button_area #submit_btn{
+	background:url(../img/common/submit_btn.png) no-repeat;
+	width:123px;
+	height:43px;
+	float:left;
+}
+
+#donate_form #button_area #clear_btn{
+	background:url(../img/common/clear_btn.png) no-repeat;
+	width:123px;
+	height:43px;
+	margin:0px 0px 0px 30px;
+	float:left;
+}
+
+#donate_form #button_area #submit_btn:hover,
+#donate_form #button_area #clear_btn:hover,
+#donate_form .change_donate:hover, 
+
+#game_body #help_form{
+	width:975px;
+	height:768px;
+	position:absolute;
+	background:url(../img/form/help.png) no-repeat;
+	padding:0px;
+	margin: -120px 0px 0px 0px;
+	visibility:hidden;
+}
+
+#help_form #helpcolse{
+	width:100%;
+	height:8%;
+	text-align:right;
+}
+
+#donate_form #donateclose #donate_close_btn{
+	width:45px;
+	height:45px;
+	background:url(../img/common/close_btn_01.png) no-repeat;
+	margin:0px 0px 0px 690px;
+	padding:0;
+}
+
+#pay_form #payclose #pay_close_btn{
+	width:45px;
+	height:45px;
+	background:url(../img/common/close_btn_01.png) no-repeat;
+	margin:0px 0px 0px 770px;
+	padding:0;
+}
+
+#help_form #helpcolse #help_close_btn{
+	width:45px;
+	height:45px;
+	background:url(../img/common/close_btn_01.png) no-repeat;
+	margin:0px 0px 0px 930px;
+	padding:0;
+}
+
+#donate_form #donateclose #donate_close_btn:hover, 
+#pay_form #payclose #pay_close_btn:hover,
+#help_form #helpcolse #help_close_btn:hover
+{
+	cursor:pointer;
+	background:url(../img/common/close_btn_02.png) no-repeat;
+}
